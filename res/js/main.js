@@ -30,11 +30,11 @@ $(document).ready(function () {
 
 });
 $(window).scroll(function() {
-    var scrollTop = $(this).scrollTop();
+    let scrollTop = $(this).scrollTop();
 
         $('.welcome').css({
         opacity: function() {
-            var elementHeight = $(this).height(),
+            let elementHeight = $(this).height(),
             opacity = ((elementHeight - scrollTop) / elementHeight);
             return opacity;
         }
