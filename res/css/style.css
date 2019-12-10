@@ -29,7 +29,6 @@
   border-top: 1px solid rgba(255, 255, 255, 0.8);
   margin-left: auto;
   margin-right: auto;
-  background: rgba(0, 0, 0, 0.5);
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   width: 30%;
@@ -48,7 +47,6 @@
   margin-right: auto;
   width: 95%;
   height: 25vh;
-  background: rgba(0, 0, 0, 0.5);
 }
 
 .about h3 {
@@ -71,8 +69,6 @@
 
 .my-works {
   border-radius: 2rem;
-  background: rgba(0, 0, 0, 0.5);
-  box-shadow: 0px -10px 5px rgba(0, 0, 0, 0.5);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   margin-left: auto;
@@ -142,7 +138,6 @@
   border-top: 1px solid rgba(255, 255, 255, 0.8);
   display: flex;
   justify-content: space-around;
-  background: rgba(0, 0, 0, 0.5);
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   width: 30%;
@@ -159,7 +154,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.5);
   height: 5vh;
 }
 
@@ -331,6 +325,18 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.7rem;
   }
 
+  .textblock {
+    font-family: "Big Shoulders Display", cursive;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .textblock p {
+    font-family: "Alegreya Sans", sans-serif;
+    width: 400px;
+  }
+
   .images {
     display: flex;
     flex-wrap: wrap;
@@ -424,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 10rem;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 910px) {
   .nav-link {
     font-size: 3rem;
   }

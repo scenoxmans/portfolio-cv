@@ -5,6 +5,16 @@
     .welcome h3{
         font-size: 0.7rem;
     }
+    .textblock{
+        font-family: 'Big Shoulders Display', cursive;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .textblock p{
+        font-family: 'Alegreya Sans', sans-serif;
+        width: 400px;
+    }
     .images{
         display: flex;
         flex-wrap: wrap;
@@ -81,7 +91,7 @@
         width: 10rem;
     }
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 910px){
     .nav-link{
         font-size: 3rem;
     }
