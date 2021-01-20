@@ -1,0 +1,156 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  margin-top: 0;
+  column-gap: 40px;
+
+}
+.row {
+  flex: 22%;
+  height: stretch;
+  padding: -10px;
+  column-gap: 40px;
+}
+.row1 {
+  flex: 78%;
+  margin-top: 20px;
+  padding: -10px;
+  margin-left: 70px;
+}
+/* Intro */
+.intro {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  padding: 20px;
+  display: flex;
+}
+h1 {
+  margin-top: 240px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 72px;
+  font-weight: 1000;
+  line-height: 64px;
+  text-transform: uppercase;
+  margin-bottom: -20px;
+  line-height: 10%;
+}
+h3 {
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 64px;
+}
+.introcontent {
+  padding-left: 1px;
+}
+.mugshot {
+  height: 275px;
+  width: 275px;
+  float: left;
+  margin-top: 60px;
+  margin-right: 575px;
+  border: 2px solid #222222;
+  border-radius: 90%;
+  background: rgba(0, 0, 0, 0);
+}
+                   /* Contact - Icons */
+
+.contact {
+  margin-top: 450px;
+  padding: 75px;
+  margin-bottom: -150px;
+}
+.h2title {
+  margin-top: 35px;
+}
+.mail {
+  height: 25px;
+  width: 25px;
+  float: left;
+}
+.phone {
+  height: 25px;
+  width: 25px;
+  float: left;
+}
+.house {
+  height: 25px;
+  width: 25px;
+  float: left;
+}
+.icons p {
+  margin-left: 50px;
+}
+.lineheightp {
+  line-height: 40%;
+}
+                           /* SCHOOL */
+.school {
+  padding: 75px;
+  margin-bottom: -150px;
+}
+                          /* SKILLS */
+.skills {
+  padding: 75px;
+  margin-top: -50px;
+  margin-left: -70px;
+}
+                 /* Social Network - Icons */
+.sociaal {
+  padding: 75px;
+}
+.icons1 p {
+  margin-left: 50px;
+}
+.fb {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+.ig {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+.tweet {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+                      /* 2nd Column */
+                 /* Werk - Dates/Places */
+.werk {
+ margin-top: 90px;
+ margin-bottom: 83px;
+}
+.dates {
+  display: flex;
+ float: left;
+ display: block;
+ margin-left: 25px;
+}
+.places {
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-left: 500px;
+}
+.ul {
+  margin-left: 0;
+  padding-left: 200px;
+}
+.li {
+  list-style-position: inside;
+}
+.tri {
+  position: absolute;
+  width: 0;
+    height: 0;
+    border-top: 500px solid #d4e9ed;
+    border-right: 850px solid transparent;
+  }

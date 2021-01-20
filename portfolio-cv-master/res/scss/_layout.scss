@@ -1,0 +1,148 @@
+.name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+.name h1{
+    font-size: 8rem;
+    font-family: 'Courgette', cursive;
+    background: rgba(255, 255, 255, 0.8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem;
+    user-select: none;
+}
+.name h6{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    font-weight: 300;
+}
+//----------------------------------------------Welcome section----------------------------------------------------------------------//
+.welcome{
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    width: 30%;
+    height: 5vh;
+}
+.welcome h3{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 3rem;
+}
+//----------------------------------------------About me section----------------------------------------------------------------------//
+.about{
+    // box-shadow: 0px -10px 5px  rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 25vh;
+}
+.about h3{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size: 3rem;
+}
+.textblock{
+    font-family: 'Big Shoulders Display', cursive;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.textblock p{
+    font-family: 'Alegreya Sans', sans-serif;
+    width: 400px;
+}
+//----------------------------------------------My works section----------------------------------------------------------------------//
+.my-works{
+    border-radius: 2rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 95%;
+}
+.my-works h3{
+    word-spacing: 3rem;
+    font-family: 'Courgette', cursive;
+    font-size: 3rem;
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+}
+.my-works h4{
+
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 4rem;
+}
+.my-works hr{
+    opacity: 0.2;
+    margin-left:auto;
+    margin-right: auto;
+    width: 80%;
+}
+.works-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+
+}
+.works-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+.images img{
+    border-radius: 10px;
+    opacity: 0.8;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    height: 120px;
+    width: 180px;
+    cursor: pointer;
+}
+.images img:hover{
+    transition: 600ms;
+    opacity: 1;
+    border: 0;
+    box-shadow: 5px -10px 5px  rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+ 
+}
+//----------------------------------------------Contact me section ----------------------------------------------------------------------//
+.contact{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: space-around;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 30%;
+    height: 5vh;
+}
+.contact i{
+    font-size: 3rem;
+    opacity: 0.8;
+}
+.copyright{
+    font-family: 'Big Shoulders Display', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+.copyright p{
+    font-family: 'Courgette', cursive;
+}
